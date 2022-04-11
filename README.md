@@ -14,5 +14,4 @@ For debugging, register into the [Renovate Dashboard](https://app.renovatebot.co
 |-|-|
 |`integrations-base.json`|The base policies we apply to all repos.|
 |`integrations-automerge.json`|Default automerge policy.|
-|`integrations-npm-token.json`|Encrypted token to pull packages from GitHub-hosted NPM.|
 |`integrations-scheduled.json`|The default updates schedule. Use if real-time updates are overwhelming in a specific repo.|
