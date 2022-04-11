@@ -1,0 +1,77 @@
+{
+  "extends": [
+    "config:base",
+    ":disableDependencyDashboard"
+  ],
+  "github-actions": {
+    "enabled": false
+  },
+  "packageRules": [
+    {
+      "groupName": "org.jetbrains.kotlin.*",
+      "matchPackagePrefixes": [
+        "org.jetbrains.kotlin:",
+        "org.jetbrains.kotlin."
+      ]
+    },
+    {
+      "groupName": "org.jetbrains.kotlinx.*",
+      "matchPackagePrefixes": [
+        "org.jetbrains.kotlinx:",
+        "org.jetbrains.kotlinx."
+      ]
+    },
+    {
+      "groupName": "androidx.compose.*",
+      "matchPackagePrefixes": [
+        "androidx.compose."
+      ]
+    },
+    {
+      "groupName": "androidx.*",
+      "matchPackagePrefixes": [
+        "androidx."
+      ]
+    },
+    {
+      "groupName": "com.android.*",
+      "matchPackagePrefixes": [
+        "com.android:",
+        "com.android."
+      ]
+    },
+    {
+      "groupName": "com.google.firebase.*",
+      "matchPackagePrefixes": [
+        "com.google.firebase."
+      ]
+    },
+    {
+      "groupName": "com.google.android.*",
+      "matchPackagePrefixes": [
+        "com.google.android:",
+        "com.google.android."
+      ]
+    },
+    {
+      "groupName": "com.fasterxml.jackson.*",
+      "matchPackagePrefixes": [
+        "com.fasterxml.jackson."
+      ]
+    },
+    {
+      "groupName": "org.commonmark.*",
+      "matchPackagePrefixes": [
+        "org.commonmark:",
+        "org.commonmark."
+      ]
+    }
+  ],
+  "reviewers": [
+    "team:android-hero"
+  ],
+  "schedule": [
+    "before 7am on Monday"
+  ],
+  "semanticCommits": "disabled"
+}
