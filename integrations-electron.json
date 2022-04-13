@@ -1,0 +1,12 @@
+{
+    "packageRules": [
+        {
+          "matchPackageNames": ["electron"],
+          "allowedVersions": "<17"
+        },
+        {
+            "matchPackageNames": ["electron-builder"],
+            "allowedVersions": "<23"
+          }
+      ]
+}
