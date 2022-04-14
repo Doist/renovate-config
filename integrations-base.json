@@ -10,5 +10,6 @@
             "matchPackageNames": ["node"],
             "allowedVersions": "/^(16|18|20)(\\.|\\-)/"
         }
-    ]
+    ],
+    "stabilityDays": 3
 }
