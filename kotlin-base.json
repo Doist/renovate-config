@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "config:base",
+    ":disableDependencyDashboard"
+  ],
+  "github-actions": {
+    "enabled": false
+  },
+  "packageRules": [
+    {
+      "groupName": "org.jetbrains.kotlin:*",
+      "matchPackagePrefixes": [
+        "org.jetbrains.kotlin:",
+        "org.jetbrains.kotlin."
+      ]
+    },
+    {
+      "groupName": "org.jetbrains.kotlin-wrappers:*",
+      "matchPackagePrefixes": [
+        "org.jetbrains.kotlin-wrappers:"
+      ]
+    }
+  ]
+}
