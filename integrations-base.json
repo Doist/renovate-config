@@ -4,5 +4,11 @@
         "group:linters",
         "group:monorepos",
         "group:recommended"
+    ],
+    "packageRules": [
+        {
+            "matchPackageNames": ["node"],
+            "allowedVersions": "/^(16|18|20)(\\.|\\-)/"
+        }
     ]
 }
