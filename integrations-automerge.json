@@ -5,6 +5,7 @@
             "automerge": true
         },
         {
+            "matchUpdateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance"],
             "matchDepTypes": ["devDependencies"],
             "automerge": true
         }
