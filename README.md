@@ -18,4 +18,8 @@ For debugging, register into the [Renovate Dashboard](https://app.renovatebot.co
 
 ## Android
 
-The base configuration for our Android repositories is defined in `android-base.json`.  
+The base configuration for our Android repositories is defined in `android-base.json`.
+
+## Kotlin
+
+The base configuration for our Kotlin repositories, including Kotlin Multiplatform, is defined in `kotlin-base.json`.
