@@ -1,19 +1,11 @@
 {
   "extends": [
-    "config:base",
-    ":disableDependencyDashboard"
+    "github>doist/renovate-config:kotlin-base"
   ],
   "github-actions": {
     "enabled": false
   },
   "packageRules": [
-    {
-      "groupName": "org.jetbrains.kotlin.*",
-      "matchPackagePrefixes": [
-        "org.jetbrains.kotlin:",
-        "org.jetbrains.kotlin."
-      ]
-    },
     {
       "groupName": "org.jetbrains.kotlinx.*",
       "matchPackagePrefixes": [
