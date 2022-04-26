@@ -4,7 +4,16 @@ Shareable Renovate config templates - https://docs.renovatebot.com/config-preset
 
 ## Usage
 
-In a repo, create a `.github/renovate.json` file. See [example](https://github.com/Doist/app-console/blob/main/.github/renovate.json).
+In a repository, create a `.github/renovate.json` file and extend any of our configuration option like this:
+
+```json
+{
+    "extends": [
+        "github>doist/renovate-config:integrations-base",
+        "github>doist/renovate-config:integrations-automerge"
+    ]
+}
+```
 
 For debugging, register into the [Renovate Dashboard](https://app.renovatebot.com/dashboard#github/Doist/) where you can see detailed error messages from your runs.
 
