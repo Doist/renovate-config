@@ -15,7 +15,7 @@ In a repository, create a `.github/renovate.json` file and extend any of our con
 }
 ```
 
-For debugging, register into the [Renovate Dashboard](https://app.renovatebot.com/dashboard#github/Doist/) where you can see detailed error messages from your runs.
+For debugging, register into the [Renovate Dashboard](https://app.renovatebot.com/dashboard) where you can see detailed error messages from your runs.
 
 ## Integrations
 
