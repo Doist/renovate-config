@@ -1,0 +1,25 @@
+{
+    "extends": [
+        "config:js-app",
+        "group:linters",
+        "group:monorepos",
+        "group:postcss",
+        "group:recommended",
+        ":automergeMinor",
+        ":automergePr",
+        ":automergeRequireAllStatusChecks",
+        ":disablePeerDependencies",
+        ":enableVulnerabilityAlertsWithLabel(security)",
+        ":label(dependencies)",
+        "schedule:weekdays"
+    ],
+    "packageRules": [
+        {
+            "matchPackageNames": ["@types/react", "@types/react-dom"],
+            "groupName": "react monorepo"
+        }
+    ],
+    "enabledManagers": ["npm"],
+    "postUpdateOptions": ["npmDedupe"],
+    "stabilityDays": 5
+}
