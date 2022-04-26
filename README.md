@@ -10,11 +10,11 @@ For debugging, register into the [Renovate Dashboard](https://app.renovatebot.co
 
 ## Integrations
 
-|Template|Purpose|
-|-|-|
-|`integrations-base.json`|The base policies we apply to all repos.|
-|`integrations-automerge.json`|Default automerge policy.|
-|`integrations-scheduled.json`|The default updates schedule. Use if real-time updates are overwhelming in a specific repo.|
+| Template                      | Purpose                                                                                     |
+| ----------------------------- | ------------------------------------------------------------------------------------------- |
+| `integrations-base.json`      | The base policies we apply to all repos.                                                    |
+| `integrations-automerge.json` | Default automerge policy.                                                                   |
+| `integrations-scheduled.json` | The default updates schedule. Use if real-time updates are overwhelming in a specific repo. |
 
 ## Android
 
