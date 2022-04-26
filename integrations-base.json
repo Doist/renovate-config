@@ -11,5 +11,6 @@
             "allowedVersions": "/^(16|18|20)(\\.|\\-)/"
         }
     ],
-    "stabilityDays": 5
+    "stabilityDays": 5,
+    "prCreation": "not-pending"
 }
