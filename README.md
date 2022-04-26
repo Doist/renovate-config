@@ -17,18 +17,17 @@ In a repository, create a `.github/renovate.json` file and extend any of our con
 
 For debugging, register into the [Renovate Dashboard](https://app.renovatebot.com/dashboard) where you can see detailed error messages from your runs.
 
-## Integrations
+## Configurations Overview
 
 | Template                      | Purpose                                                                                     |
 | ----------------------------- | ------------------------------------------------------------------------------------------- |
+| **Integrations**              |                                                                                             |
 | `integrations-base.json`      | The base policies we apply to all repos.                                                    |
 | `integrations-automerge.json` | Default automerge policy.                                                                   |
 | `integrations-scheduled.json` | The default updates schedule. Use if real-time updates are overwhelming in a specific repo. |
-
-## Android
-
-The base configuration for our Android repositories is defined in `android-base.json`.
-
-## Kotlin
-
-The base configuration for our Kotlin repositories, including Kotlin Multiplatform, is defined in `kotlin-base.json`.
+| **Android**                   |                                                                                             |
+| `android-base.json`           | The base configuration for our Android repositories.                                        |
+| **Kotlin**                    |                                                                                             |
+| `kotlin-base.json`            | The base configuration for our Kotlin repositories, including Kotlin Multiplatform.         |
+| **Frontend**                  |                                                                                             |
+| `frontend-base.json`          | The base configuration for all Frontend repositories.                                       |
