@@ -4,22 +4,30 @@ Shareable Renovate config templates - https://docs.renovatebot.com/config-preset
 
 ## Usage
 
-In a repo, create a `.github/renovate.json` file. See [example](https://github.com/Doist/app-console/blob/main/.github/renovate.json).
+In a repository, create a `.github/renovate.json` file and extend any of our configuration option like this:
 
-For debugging, register into the [Renovate Dashboard](https://app.renovatebot.com/dashboard#github/Doist/) where you can see detailed error messages from your runs.
+```json
+{
+    "extends": [
+        "github>doist/renovate-config:integrations-base",
+        "github>doist/renovate-config:integrations-automerge"
+    ]
+}
+```
 
-## Integrations
+For debugging, register into the [Renovate Dashboard](https://app.renovatebot.com/dashboard) where you can see detailed error messages from your runs.
 
-|Template|Purpose|
-|-|-|
-|`integrations-base.json`|The base policies we apply to all repos.|
-|`integrations-automerge.json`|Default automerge policy.|
-|`integrations-scheduled.json`|The default updates schedule. Use if real-time updates are overwhelming in a specific repo.|
+## Configurations Overview
 
-## Android
-
-The base configuration for our Android repositories is defined in `android-base.json`.
-
-## Kotlin
-
-The base configuration for our Kotlin repositories, including Kotlin Multiplatform, is defined in `kotlin-base.json`.
+| Template                      | Purpose                                                                                     |
+| ----------------------------- | ------------------------------------------------------------------------------------------- |
+| **Integrations**              |                                                                                             |
+| `integrations-base.json`      | The base policies we apply to all repos.                                                    |
+| `integrations-automerge.json` | Default automerge policy.                                                                   |
+| `integrations-scheduled.json` | The default updates schedule. Use if real-time updates are overwhelming in a specific repo. |
+| **Android**                   |                                                                                             |
+| `android-base.json`           | The base configuration for our Android repositories.                                        |
+| **Kotlin**                    |                                                                                             |
+| `kotlin-base.json`            | The base configuration for our Kotlin repositories, including Kotlin Multiplatform.         |
+| **Frontend**                  |                                                                                             |
+| `frontend-base.json`          | The base configuration for all Frontend repositories.                                       |
