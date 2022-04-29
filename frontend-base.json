@@ -5,6 +5,7 @@
         "group:monorepos",
         "group:postcss",
         "group:recommended",
+        "group:storybookMonorepo",
         ":automergeMinor",
         ":automergePr",
         ":automergeRequireAllStatusChecks",
