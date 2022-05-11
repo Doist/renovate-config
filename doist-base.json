@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "config:base",
+        "group:linters",
+        "group:monorepos",
+        "group:recommended",
+        "schedule:weekdays"
+    ],
+    "github-actions": {
+        "enabled": false
+    },
+    "stabilityDays": 5
+}
