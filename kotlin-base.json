@@ -1,11 +1,7 @@
 {
   "extends": [
-    "config:base",
-    ":disableDependencyDashboard"
+    "github>doist/renovate-config:doist-base"
   ],
-  "github-actions": {
-    "enabled": false
-  },
   "packageRules": [
     {
       "groupName": "org.jetbrains.kotlin:*",

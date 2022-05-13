@@ -1,9 +1,6 @@
 {
     "extends": [
-        "config:base",
-        "group:linters",
-        "group:monorepos",
-        "group:recommended"
+        "github>doist/renovate-config:doist-base"
     ],
     "packageRules": [
         {
@@ -11,6 +8,5 @@
             "allowedVersions": "/^(16|18|20)(\\.|\\-)/"
         }
     ],
-    "stabilityDays": 5,
     "prCreation": "not-pending"
 }

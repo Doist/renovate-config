@@ -1,18 +1,15 @@
 {
     "extends": [
+        "github>doist/renovate-config:doist-base",
         "config:js-app",
-        "group:linters",
-        "group:monorepos",
         "group:postcss",
-        "group:recommended",
         "group:storybookMonorepo",
         ":automergeMinor",
         ":automergePr",
         ":automergeRequireAllStatusChecks",
         ":disablePeerDependencies",
         ":enableVulnerabilityAlertsWithLabel(security)",
-        ":label(dependencies)",
-        "schedule:weekdays"
+        ":label(dependencies)"
     ],
     "packageRules": [
         {
@@ -21,6 +18,5 @@
         }
     ],
     "enabledManagers": ["npm"],
-    "postUpdateOptions": ["npmDedupe"],
-    "stabilityDays": 5
+    "postUpdateOptions": ["npmDedupe"]
 }
