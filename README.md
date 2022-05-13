@@ -31,3 +31,5 @@ For debugging, register into the [Renovate Dashboard](https://app.renovatebot.co
 | `kotlin-base.json`            | The base configuration for our Kotlin repositories, including Kotlin Multiplatform.         |
 | **Frontend**                  |                                                                                             |
 | `frontend-base.json`          | The base configuration for all Frontend repositories.                                       |
+| **Backend**                   |                                                                                             |
+| `backend-base.json`           | The base configuration for our Backend repositories.                                       |
