@@ -18,5 +18,6 @@
         }
     ],
     "enabledManagers": ["npm"],
-    "postUpdateOptions": ["npmDedupe"]
+    "postUpdateOptions": ["npmDedupe"],
+    "ignoreDeps": ["adaptivecards"]
 }
