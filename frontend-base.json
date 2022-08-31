@@ -19,5 +19,5 @@
     ],
     "enabledManagers": ["npm"],
     "postUpdateOptions": ["npmDedupe"],
-    "ignoreDeps": ["adaptivecards"]
+    "ignoreDeps": ["adaptivecards", "ariakit"]
 }
