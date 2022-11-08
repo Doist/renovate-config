@@ -7,7 +7,6 @@
         ":automergeMinor",
         ":automergePr",
         ":automergeRequireAllStatusChecks",
-        ":disablePeerDependencies",
         ":enableVulnerabilityAlertsWithLabel(security)",
         ":label(dependencies)"
     ],
