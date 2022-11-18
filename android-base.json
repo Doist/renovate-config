@@ -49,6 +49,9 @@
       "groupName": "com.fasterxml.jackson.*",
       "matchPackagePrefixes": [
         "com.fasterxml.jackson."
+      ],
+      "matchUpdateTypes": [
+        "patch"
       ]
     },
     {
