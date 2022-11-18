@@ -10,7 +10,13 @@
       "groupName": "org.jetbrains.kotlinx.*",
       "matchPackagePrefixes": [
         "org.jetbrains.kotlinx:",
-        "org.jetbrains.kotlinx."
+        "org.jetbrains.kotlinx.",
+      ]
+    },
+    {
+      "groupName": "org.jetbrains.kotlinx.*",
+      "matchPackagePatterns": [
+        "com.google.devtools.ksp"
       ]
     },
     {
