@@ -14,9 +14,11 @@
       ]
     },
     {
-      "groupName": "org.jetbrains.kotlinx.*",
+      "groupName": "org.jetbrains.kotlin.*",
       "matchPackagePatterns": [
-        "com.google.devtools.ksp"
+        "org.jetbrains.kotlin.*",
+        "com.google.devtools.ksp",
+        "androidx.compose.compiler:compiler"
       ]
     },
     {
