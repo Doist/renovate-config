@@ -1,6 +1,6 @@
 {
     "extends": [
-        "github>doist/renovate-config:doist-base",
+        "github>comnoco/renovate-config:doist-base",
         "config:js-app",
         "group:postcss",
         "group:storybookMonorepo",
@@ -12,11 +12,10 @@
     ],
     "packageRules": [
         {
-            "matchPackageNames": ["@types/react", "@types/react-dom"],
-            "groupName": "react monorepo"
+            "matchPackageNames": ["@tiptap/*"],
+            "groupName": "Tiptap"
         }
     ],
     "enabledManagers": ["npm"],
-    "postUpdateOptions": ["npmDedupe"],
-    "ignoreDeps": ["adaptivecards", "ariakit"]
+    "postUpdateOptions": ["npmDedupe"]
 }
