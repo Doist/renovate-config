@@ -9,8 +9,8 @@ In a repository, create a `.github/renovate.json` file and extend any of our con
 ```json
 {
     "extends": [
-        "github>doist/renovate-config:integrations-base",
-        "github>doist/renovate-config:integrations-automerge"
+        "github>comnoco/renovate-config:integrations-base",
+        "github>comnoco/renovate-config:integrations-automerge"
     ]
 }
 ```
