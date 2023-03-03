@@ -24,13 +24,21 @@
     {
       "groupName": "androidx.compose.*",
       "matchPackagePrefixes": [
-        "androidx.compose."
+        "androidx.compose.",
+        "androidx.wear.compose."
+      ],
+      "excludePackagePrefixes": [
+        "androidx.compose.compiler"
       ]
     },
     {
       "groupName": "androidx.*",
       "matchPackagePrefixes": [
         "androidx."
+      ],
+      "excludePackagePrefixes": [
+        "androidx.compose.",
+        "androidx.wear.compose."
       ]
     },
     {
