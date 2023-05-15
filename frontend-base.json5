@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "github>comnoco/renovate-config:doist-base",
+    "config:js-app",
+    "group:postcss",
+    "group:storybookMonorepo",
+    ":automergeMinor",
+    ":automergePr",
+    ":automergeRequireAllStatusChecks",
+    ":enableVulnerabilityAlertsWithLabel(security)",
+    ":label(dependencies)"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["@tiptap/*"],
+      "groupName": "Tiptap"
+    }
+  ],
+  "enabledManagers": ["npm"],
+  "postUpdateOptions": ["npmDedupe"],
+  "platformAutomerge": true,
+  // Fix default branch rebasing - always rebase still-open temporary branches, whenever its source branch has changed
+  "rebaseWhen": "behind-base-branch",
+  // Handle pulled dependency updates
+  "rollbackPrs": true,
+  // Improve overview of open PRs (caused by Renovate Bot)
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": true
+}
