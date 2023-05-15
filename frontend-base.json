@@ -19,11 +19,8 @@
   "enabledManagers": ["npm"],
   "postUpdateOptions": ["npmDedupe"],
   "platformAutomerge": true,
-  // Fix default branch rebasing - always rebase still-open temporary branches, whenever its source branch has changed
   "rebaseWhen": "behind-base-branch",
-  // Handle pulled dependency updates
   "rollbackPrs": true,
-  // Improve overview of open PRs (caused by Renovate Bot)
   "dependencyDashboard": true,
   "dependencyDashboardAutoclose": true
 }
