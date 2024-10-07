@@ -1,8 +1,22 @@
 {
     "extends": [
-        "github>doist/renovate-config:doist-base"
+        "github>comnoco/renovate-config:doist-base",
+        "config:recommended",
+        "group:allNonMajor",
+        ":automergeMinor",
+        ":automergePr",
+        ":prNotPending",
+        ":automergeRequireAllStatusChecks",
+        ":enableVulnerabilityAlertsWithLabel(security)",
+        ":label(dependencies)"
+
     ],
-    "enabledManagers": [
-        "poetry"
-    ]
+    "enabledManagers": ["gomod"],
+    "postUpdateOptions": ["gomodTidy"],
+    "rebaseWhen": "behind-base-branch",
+    "rollbackPrs": true,
+    "dependencyDashboard": true,
+    "dependencyDashboardAutoclose": true,
+    "prHourlyLimit": 3
+
 }
