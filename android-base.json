@@ -42,10 +42,20 @@
       ]
     },
     {
+      "groupName": "com.android.billingclient",
+      "matchPackagePrefixes": [
+        "com.android.billingclient:",
+        "com.android.billingclient."
+      ]
+    },
+    {
       "groupName": "com.android.*",
       "matchPackagePrefixes": [
         "com.android:",
         "com.android."
+      ],
+      "excludePackagePrefixes": [
+        "com.android.billingclient"
       ]
     },
     {
