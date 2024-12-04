@@ -44,8 +44,7 @@
     {
       "groupName": "com.android.billingclient",
       "matchPackagePrefixes": [
-        "com.android.billingclient:",
-        "com.android.billingclient."
+        "com.android.billingclient:"
       ]
     },
     {
