@@ -4,7 +4,8 @@
         "group:linters",
         "group:monorepos",
         "group:recommended",
-        "schedule:weekdays"
+        "schedule:weekdays",
+        ":enableVulnerabilityAlerts"
     ],
     "github-actions": {
         "enabled": false
