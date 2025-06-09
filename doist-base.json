@@ -9,5 +9,5 @@
     "github-actions": {
         "enabled": false
     },
-    "stabilityDays": 5
+    "minimumReleaseAge": "5 days"
 }
