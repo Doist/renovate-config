@@ -2,10 +2,11 @@
   "extends": [
     "github>doist/renovate-config:kotlin-base"
   ],
-  "github-actions": {
-    "enabled": false
-  },
   "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "enabled": false
+    },
     {
       "groupName": "org.jetbrains.kotlinx.*",
       "matchPackagePrefixes": [
