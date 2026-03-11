@@ -14,6 +14,10 @@
         {
             "matchPackageNames": ["@types/react", "@types/react-dom"],
             "groupName": "react monorepo"
+        },
+        {
+            "matchPackageNames": ["@doist/**"],
+            "prPriority": 5
         }
     ],
     "enabledManagers": ["npm"],

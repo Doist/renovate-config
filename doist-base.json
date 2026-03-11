@@ -11,10 +11,6 @@
         {
             "matchManagers": ["github-actions"],
             "enabled": false
-        },
-        {
-            "matchPackageNames": ["@doist/**"],
-            "prPriority": 5
         }
     ],
     "minimumReleaseAge": "5 days"

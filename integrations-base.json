@@ -6,6 +6,10 @@
         {
             "matchPackageNames": ["node"],
             "allowedVersions": "/^(16|18|20)(\\.|\\-)/"
+        },
+        {
+            "matchPackageNames": ["@doist/**"],
+            "prPriority": 5
         }
     ],
     "prCreation": "not-pending"
