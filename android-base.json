@@ -8,17 +8,8 @@
       "enabled": false
     },
     {
-      "groupName": "org.jetbrains.kotlinx.*",
-      "matchPackagePrefixes": [
-        "org.jetbrains.kotlinx:",
-        "org.jetbrains.kotlinx."
-      ]
-    },
-    {
       "groupName": "org.jetbrains.kotlin.*",
       "matchPackagePatterns": [
-        "org.jetbrains.kotlin.*",
-        "com.google.devtools.ksp",
         "androidx.compose.compiler:compiler"
       ]
     },
