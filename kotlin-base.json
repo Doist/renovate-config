@@ -4,16 +4,39 @@
   ],
   "packageRules": [
     {
-      "groupName": "org.jetbrains.kotlin:*",
+      "groupName": "com.doist.kmp",
+      "matchPackagePrefixes": [
+        "com.doist.kmp",
+        "com.doist:kmp-"
+      ],
+      "minimumReleaseAge": "0 days"
+    },
+    {
+      "groupName": "org.jetbrains.kotlin.*",
       "matchPackagePrefixes": [
         "org.jetbrains.kotlin:",
-        "org.jetbrains.kotlin."
+        "org.jetbrains.kotlin.",
+        "com.google.devtools.ksp"
+      ]
+    },
+    {
+      "groupName": "org.jetbrains.kotlinx.*",
+      "matchPackagePrefixes": [
+        "org.jetbrains.kotlinx:",
+        "org.jetbrains.kotlinx."
       ]
     },
     {
       "groupName": "org.jetbrains.kotlin-wrappers:*",
       "matchPackagePrefixes": [
         "org.jetbrains.kotlin-wrappers:"
+      ]
+    },
+    {
+      "groupName": "detekt",
+      "matchPackagePrefixes": [
+        "dev.detekt",
+        "io.gitlab.arturbosch.detekt"
       ]
     }
   ]
