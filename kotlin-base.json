@@ -27,6 +27,10 @@
       ]
     },
     {
+      "matchPackageNames": ["org.jetbrains.kotlinx:kotlinx-datetime"],
+      "allowedVersions": "!/-0\\.6\\.x-compat$/"
+    },
+    {
       "groupName": "org.jetbrains.kotlin-wrappers:*",
       "matchPackagePrefixes": [
         "org.jetbrains.kotlin-wrappers:"
