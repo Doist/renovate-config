@@ -4,10 +4,8 @@
   ],
   "packageRules": [
     {
-      "groupName": "com.doist.kmp",
-      "matchPackagePrefixes": [
-        "com.doist.kmp",
-        "com.doist:kmp-"
+      "matchPackageNames": [
+        "/^com\\.(doist|todoist)[.:]/"
       ],
       "minimumReleaseAge": "0 days"
     },
