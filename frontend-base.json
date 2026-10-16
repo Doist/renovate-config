@@ -17,7 +17,10 @@
         },
         {
             "matchPackageNames": ["@doist/**"],
-            "prPriority": 5
+            "prPriority": 5,
+            "prConcurrentLimit": 0,
+            "prHourlyLimit": 0,
+            "minimumReleaseAge": "0 days"
         }
     ],
     "enabledManagers": ["npm"],
