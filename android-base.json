@@ -82,5 +82,5 @@
   "schedule": [
     "before 7am on Monday"
   ],
-  "semanticCommits": "disabled"
+  "semanticCommits": "enabled"
 }
