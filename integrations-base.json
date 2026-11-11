@@ -8,7 +8,7 @@
             "allowedVersions": "/^(16|18|20)(\\.|\\-)/"
         },
         {
-            "matchPackageNames": ["@todoist/**"],
+            "matchPackageNames": ["@doist/**", "@todoist/**"],
             "prPriority": 5
         }
     ],

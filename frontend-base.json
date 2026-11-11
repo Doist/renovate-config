@@ -16,7 +16,7 @@
             "groupName": "react monorepo"
         },
         {
-            "matchPackageNames": ["@todoist/**"],
+            "matchPackageNames": ["@doist/**", "@todoist/**"],
             "prPriority": 5,
             "prConcurrentLimit": 0,
             "prHourlyLimit": 0,
