@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>doist/renovate-config:doist-base"
+    "github>todoist/renovate-config:doist-base"
   ],
   "packageRules": [
     {

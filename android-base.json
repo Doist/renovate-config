@@ -1,6 +1,6 @@
 {
   "extends": [
-    "github>doist/renovate-config:kotlin-base"
+    "github>todoist/renovate-config:kotlin-base"
   ],
   "packageRules": [
     {

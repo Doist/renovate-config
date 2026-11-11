@@ -1,6 +1,6 @@
 {
     "extends": [
-        "github>doist/renovate-config:doist-base",
+        "github>todoist/renovate-config:doist-base",
         "config:js-app",
         "group:postcss",
         "group:storybookMonorepo",
@@ -16,7 +16,7 @@
             "groupName": "react monorepo"
         },
         {
-            "matchPackageNames": ["@doist/**"],
+            "matchPackageNames": ["@doist/**", "@todoist/**"],
             "prPriority": 5,
             "prConcurrentLimit": 0,
             "prHourlyLimit": 0,
